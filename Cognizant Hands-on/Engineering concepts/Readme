@@ -1,0 +1,18 @@
+# Singleton Pattern POC - Logger System
+
+## Objective
+To ensure only one instance of Logger exists throughout the application lifecycle.
+
+## Concept Used
+- Singleton Design Pattern
+- Static variables
+- Private constructor
+- Lazy initialization
+
+## Implementation
+Logger class restricts object creation using private constructor and provides a global access point using getInstance().
+
+
+## Output Verification
+- Only one Logger instance is created
+- Both references point to the same object
